@@ -314,6 +314,12 @@
       "password": "$2a$10$2WuPzKICNIYLzuqCFMZv5.9OwslWzrd6d3a1VV4oHJeUZlwKPJ9a2",
       "name": "Harshad",
       "id": "OQ17eiy"
+    },
+    {
+      "email": "prajaktamane@example.com",
+      "password": "$2a$10$TZd7AuVUpzmWNUbvn85.ou6CsqcXGgU5tKO0nStDcAdfuCzcS7992",
+      "name": "Prajakta B Mane",
+      "id": "1V4-Smt"
     }
   ]
 }
