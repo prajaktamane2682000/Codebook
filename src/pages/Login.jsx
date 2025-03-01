@@ -33,7 +33,7 @@ export const Login = () => {
     try{
     const authDetail = {
       email: email.current.value,
-      password: password.current.value,
+      password: password.current.value
     };
 
     const data = await login(authDetail);
