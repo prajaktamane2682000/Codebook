@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import { ProductCard } from "../../components/Elements/ProductCard";
 import { ProductFilter } from "../Products/components/ProductFilter";
 import { useLocation } from "react-router-dom";
+import { toast } from "react-toastify";
 import { useTitle } from "../../hooks/useTitle";
 import { useFilter } from "../../context/FilterContext";
 import { getProductList } from "../../services/productService";
-import { toast } from "react-toastify";
+
 
 export const ProductList = () => {
   const { productList, initialProductList } = useFilter();
