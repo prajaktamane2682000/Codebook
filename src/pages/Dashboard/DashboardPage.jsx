@@ -3,6 +3,7 @@ import { DashboardCard } from "./components/DashboardCard";
 import { useEffect, useState } from "react";
 import { useTitle } from "../../hooks/useTitle";
 import { getUserOrders } from "../../services/dataService";
+import { toast } from "react-toastify";
 
 export const DashboardPage = () => {
   useTitle("Dashboard");

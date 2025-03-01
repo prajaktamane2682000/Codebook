@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useTitle } from "../hooks/useTitle";
 import { useCart } from "../context/CartContext";
 import { getProduct } from "../services/productService";
+import { toast } from "react-toastify";
 
 export const ProductDetail = () => {
   const [product, setProduct] = useState([]);
