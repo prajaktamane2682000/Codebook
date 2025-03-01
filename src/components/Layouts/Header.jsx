@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Logo from '../../assets/Logo (2).png'
+import Logo from "../../assets/logo (2).png";
 import {Link} from 'react-router-dom'
 import { Search } from '../Elements/Search'
 import { DropdownLoggedIn } from '../Elements/DropdownLoggedIn'
