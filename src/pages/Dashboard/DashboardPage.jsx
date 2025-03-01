@@ -2,8 +2,8 @@ import { EmptyDashboard } from "./components/EmptyDashboard";
 import { DashboardCard } from "./components/DashboardCard";
 import { useEffect, useState } from "react";
 import { useTitle } from "../../hooks/useTitle";
-import { getUserOrders } from "../../services/dataService";
 import { toast } from "react-toastify";
+import { getUserOrders } from "../../services/dataService";
 
 export const DashboardPage = () => {
   useTitle("Dashboard");
