@@ -2,26 +2,30 @@ import { Accordion } from "./Accordion";
 
 export const Faq = () => {
     const faqs = [
-        {
-          "id": 1,
-          "question": "Why should I use CodeBook?",
-          "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus earum dicta nesciunt, nulla alias consequuntur cumque incidunt saepe mollitia esse! Magni praesentium delectus excepturi nostrum illo repellendus cum eius neque, aperiam dolores quaerat quis dolore magnam doloremque minus sint nemo qui necessitatibus at. Perspiciatis, corrupti cum labore quos odio porro!"
-        },
-        {
-          "id": 2,
-          "question": "Can I access my eBook on mobile?",
-          "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus nobis tempore perferendis qui, quam, atque reprehenderit vero quaerat, assumenda pariatur eveniet. Maxime eaque, neque corrupti ad minus repudiandae consectetur!"
-        },
-        {
-          "id": 3,
-          "question": "Do you offer refunds?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste dolor deserunt expedita quam fugit et inventore amet pariatur. Animi."
-        },
-        {
-          "id": 4,
-          "question": "Do you support Internation payments?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste dolor deserunt expedita quam fugit et inventore amet pariatur. Animi."
-        }
+      {
+        id: 1,
+        question: "Why should I use CodeBook?",
+        answer:
+          "CodeBook is your one-stop destination for buying books online. Explore a vast collection, enjoy seamless shopping, and get your favorite books delivered to your doorstep with ease.",
+      },
+      {
+        id: 2,
+        question: "Can I access my eBook on mobile?",
+        answer:
+          "Yes, you can access your eBook on mobile by logging into your CodeBook account through the web.",
+      },
+      {
+        id: 3,
+        question: "Do you offer refunds?",
+        answer:
+          "Yes, we offer refunds as per our refund policy. Please check our refund policy page for more details.",
+      },
+      {
+        id: 4,
+        question: "Do you support Internation payments?",
+        answer:
+          "Yes, we support international payments. You can purchase books from anywhere using globally accepted payment methods.",
+      },
     ];
     
   return (
